@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: aqua;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+
+    transition: all 1s;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 1s;
+}
+
+.main:hover .block{
+    /* transform: translate(200px,300px); */
+    transform: rotate(1720deg);
+    /* transform: scale(2); */
+    /* transform: skew(10deg, 18 0deg); */
+
+    background-color: yellow;
+}
